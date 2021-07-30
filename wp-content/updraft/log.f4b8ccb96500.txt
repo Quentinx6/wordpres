@@ -1,0 +1,287 @@
+0000.000 (0) Opened log file at time: Thu, 29 Jul 2021 14:43:44 +0000 on http://192.168.1.105/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.8 PHP: 7.4.16 (apache2handler, Darwin MBP-de-Quentin 20.5.0 Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64 x86_64) MySQL: 5.7.32 (max packet size=4194304) WPLANG: fr_FR Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.16 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 51M | 4.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 9061.5 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2021-07-29 14:43:44
+0000.010 (0) Semaphore lock (fd) complete
+0000.013 (0) Backup run: resumption=0, nonce=f4b8ccb96500, file_nonce=f4b8ccb96500 begun at=1627569824 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 300 seconds (1627570124) in case this run gets aborted
+0000.030 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.037 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.038 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.039 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.041 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.051 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.061 (0) Working binary zip found: /usr/bin/zip
+0000.063 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.064 (0) Creation of backups of directories: beginning
+0000.067 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.425 (0) Total entities for the zip file: 987 directories, 4820 files (0 skipped as non-modified), 95.2 MB
+0000.433 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.439 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.448 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.457 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.463 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.469 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.475 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.480 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.488 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.494 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.495 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17 MB, 4820 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.409 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 7.40 MB
+0001.416 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1100 files added (on-disk size: 7571.9 KB)
+0001.421 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1200 files added (on-disk size: 7571.9 KB)
+0001.426 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1300 files added (on-disk size: 7571.9 KB)
+0001.431 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1400 files added (on-disk size: 7571.9 KB)
+0001.436 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1500 files added (on-disk size: 7571.9 KB)
+0001.441 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1600 files added (on-disk size: 7571.9 KB)
+0001.446 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1700 files added (on-disk size: 7571.9 KB)
+0001.451 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1800 files added (on-disk size: 7571.9 KB)
+0001.456 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 1900 files added (on-disk size: 7571.9 KB)
+0001.461 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2000 files added (on-disk size: 7571.9 KB)
+0001.462 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 4820 files batched, 1001 (2002) added so far); re-opening (prior size: 7571.9 KB)
+0002.268 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 11.20 MB
+0002.280 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2100 files added (on-disk size: 11434.7 KB)
+0002.288 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2200 files added (on-disk size: 11434.7 KB)
+0002.293 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2300 files added (on-disk size: 11434.7 KB)
+0002.299 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2400 files added (on-disk size: 11434.7 KB)
+0002.306 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2500 files added (on-disk size: 11434.7 KB)
+0002.309 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 4820 files batched, 550 (2552) added so far); re-opening (prior size: 11434.7 KB)
+0003.510 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 18.40 MB
+0003.514 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11491.8 KB/s)
+0003.515 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.233127117157, normalised_time=2.2276687576431, max_time=3.5141620635986, data points known=1, old_max_bytes=26214400, new_max_bytes=70605829)
+0003.519 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2600 files added (on-disk size: 18890.9 KB)
+0003.524 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2700 files added (on-disk size: 18890.9 KB)
+0003.528 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2800 files added (on-disk size: 18890.9 KB)
+0003.533 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 2900 files added (on-disk size: 18890.9 KB)
+0003.538 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3000 files added (on-disk size: 18890.9 KB)
+0003.543 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3100 files added (on-disk size: 18890.9 KB)
+0003.548 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3200 files added (on-disk size: 18890.9 KB)
+0003.553 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3300 files added (on-disk size: 18890.9 KB)
+0003.558 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3400 files added (on-disk size: 18890.9 KB)
+0003.562 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3500 files added (on-disk size: 18890.9 KB)
+0003.565 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.6 MB, 4820 files batched, 1001 (3553) added so far); re-opening (prior size: 18890.9 KB)
+0004.552 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 22.60 MB
+0004.558 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3600 files added (on-disk size: 23182.4 KB)
+0004.563 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3700 files added (on-disk size: 23182.4 KB)
+0004.568 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3800 files added (on-disk size: 23182.4 KB)
+0004.573 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 3900 files added (on-disk size: 23182.4 KB)
+0004.579 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4000 files added (on-disk size: 23182.4 KB)
+0004.584 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4100 files added (on-disk size: 23182.4 KB)
+0004.589 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4200 files added (on-disk size: 23182.4 KB)
+0004.594 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4300 files added (on-disk size: 23182.4 KB)
+0004.599 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4400 files added (on-disk size: 23182.4 KB)
+0004.603 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4500 files added (on-disk size: 23182.4 KB)
+0004.606 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 4820 files batched, 1001 (4554) added so far); re-opening (prior size: 23182.4 KB)
+0005.648 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 27.80 MB
+0005.654 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4600 files added (on-disk size: 28485.4 KB)
+0005.659 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4700 files added (on-disk size: 28485.4 KB)
+0005.665 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: 4800 files added (on-disk size: 28485.4 KB)
+0006.364 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip.tmp: size is now: 36.20 MB
+0007.069 (0) Created plugins zip (0) - 37041.9 KB in 7 s (5291.4 KB/s) (sha1: 831cf63023e2d16c81db1b9143538792475c5691, sha256: 0668dd6d96ee9d89ff3a25529557564f9831ad7ef864935a6a730a1441c2fcd2)
+0007.072 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.138 (0) Total entities for the zip file: 185 directories, 684 files (0 skipped as non-modified), 15.2 MB
+0007.143 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.148 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.153 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.158 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.163 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.169 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.829 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip.tmp: size is now: 8.30 MB
+0007.998 (0) Created themes zip (0) - 8520.6 KB in 0.9 s (9240.8 KB/s) (sha1: 802fde48be179b116942f86c43e48ecf3496e4d0, sha256: 179465d58e79840b4cb62702202b1e5705baaeff02c3abdd1e17eaf723cdde4a)
+0008.001 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.002 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/wordpress/wp-content/uploads
+0008.003 (0) finding files: wpforms: adding to list (1)
+0008.004 (0) finding files: elementor: adding to list (2)
+0008.005 (0) finding files: 2021: adding to list (3)
+0008.006 (0) finding files: themeisle-gutenberg: adding to list (4)
+0008.007 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.017 (0) Total entities for the zip file: 7 directories, 182 files (0 skipped as non-modified), 39.9 MB
+0008.022 (0) Zip: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.650 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip.tmp: size is now: 39.80 MB
+0009.451 (0) Created uploads zip (0) - 40732.3 KB in 1.4 s (28227 KB/s) (sha1: e5b3f2350f7e7ec2640d17e635303a630efe3659, sha256: 5fdd6759b7901bffbd3e80315c36b9af3527a8ed933e5b8755fd49bcb4ac1849)
+0009.455 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.456 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.457 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/wordpress/wp-content
+0009.458 (0) finding files: upgrade: skipping: excluded by options
+0009.458 (0) finding files: index.php: adding to list (1)
+0009.459 (0) finding files: plugins: skipping: this is the plugins directory
+0009.460 (0) finding files: uploads: skipping: this is the uploads directory
+0009.461 (0) finding files: updraft: skipping: this is the updraft directory
+0009.462 (0) finding files: languages: adding to list (2)
+0009.463 (0) finding files: themes: skipping: this is the themes directory
+0009.472 (0) Total entities for the zip file: 3 directories, 69 files (0 skipped as non-modified), 2.7 MB
+0009.627 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip.tmp: size is now: 0.80 MB
+0009.648 (0) Created others zip (0) - 778.9 KB in 0.2 s (4286.9 KB/s) (sha1: 79afd14cf91bd56a566f7a69e53585b137d6eb45, sha256: 4b88691fcb2d289c30302053db253a99a8b68fa52f9b537b9c366e4fa47595c7)
+0009.653 (0) Saving backup status to database (elements: 8)
+0009.655 (0) Beginning creation of database dump (WordPress DB)
+0009.657 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0009.670 (0) Table wp_options: Total expected rows (approximate): 275
+0009.762 (0) Table wp_options: Rows added in this batch (next record: 765): 274 (uncompressed bytes in this segment=1766237) in 0.09 seconds
+0009.768 (0) Table wp_options: finishing file(s) (2, 328.5 KB)
+0009.771 (0) Table wp_users: Total expected rows (approximate): 0
+0009.772 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1391) in 0.00 seconds
+0009.776 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0009.778 (0) Table wp_usermeta: Total expected rows (approximate): 24
+0009.782 (0) Table wp_usermeta: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=3999) in 0.00 seconds
+0009.786 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0009.789 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 9
+0009.792 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 55): 9 (uncompressed bytes in this segment=5360) in 0.00 seconds
+0009.796 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0009.798 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0009.799 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0009.802 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0009.804 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0009.805 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.00 seconds
+0009.808 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0009.810 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 17
+0009.812 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=2232) in 0.00 seconds
+0009.815 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0009.817 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0009.820 (0) Table wp_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=823) in 0.00 seconds
+0009.824 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0009.825 (0) Table wp_comments: Total expected rows (approximate): 0
+0009.827 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.00 seconds
+0009.831 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0009.833 (0) Table wp_links: Total expected rows (approximate): 0
+0009.835 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0009.838 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0009.840 (0) Table wp_postmeta: Total expected rows (approximate): 812
+0009.860 (0) Table wp_postmeta: Rows added in this batch (next record: 1005): 803 (uncompressed bytes in this segment=337045) in 0.02 seconds
+0009.865 (0) Table wp_postmeta: finishing file(s) (2, 17.5 KB)
+0009.868 (0) Table wp_posts: Total expected rows (approximate): 171
+0009.889 (0) Table wp_posts: Rows added in this batch (next record: 202): 182 (uncompressed bytes in this segment=365232) in 0.02 seconds
+0009.894 (0) Table wp_posts: finishing file(s) (2, 26.8 KB)
+0009.896 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0009.899 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=822) in 0.00 seconds
+0009.902 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0009.905 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0009.910 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=957) in 0.00 seconds
+0009.915 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0009.917 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0009.920 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0009.926 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0009.928 (0) Table wp_terms: Total expected rows (approximate): 2
+0009.930 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=772) in 0.00 seconds
+0009.935 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0009.939 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 6
+0009.945 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1138) in 0.01 seconds
+0009.954 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0009.956 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_options.table.tmpr766.gz (1/17/fopen): adding to final database dump
+0009.976 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_options.table.gz (2/17/fopen): adding to final database dump
+0009.978 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_users.table.tmpr2.gz (3/17/fopen): adding to final database dump
+0009.979 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_users.table.gz (4/17/fopen): adding to final database dump
+0009.980 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_usermeta.table.tmpr26.gz (5/17/fopen): adding to final database dump
+0009.981 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_usermeta.table.gz (6/17/fopen): adding to final database dump
+0009.982 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_actions.table.tmpr56.gz (7/17/fopen): adding to final database dump
+0009.983 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_actions.table.gz (8/17/fopen): adding to final database dump
+0009.985 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/17/fopen): adding to final database dump
+0009.986 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_claims.table.gz (10/17/fopen): adding to final database dump
+0009.987 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/17/fopen): adding to final database dump
+0009.988 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_groups.table.gz (12/17/fopen): adding to final database dump
+0009.990 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_logs.table.tmpr18.gz (13/17/fopen): adding to final database dump
+0009.991 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_actionscheduler_logs.table.gz (14/17/fopen): adding to final database dump
+0009.993 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_commentmeta.table.tmpr3.gz (15/17/fopen): adding to final database dump
+0009.994 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_commentmeta.table.gz (16/17/fopen): adding to final database dump
+0009.995 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_comments.table.tmpr0.gz (17/17/fopen): adding to final database dump
+0009.997 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_comments.table.gz (18/17/fopen): adding to final database dump
+0009.998 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_links.table.tmpr0.gz (19/17/fopen): adding to final database dump
+0009.999 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_links.table.gz (20/17/fopen): adding to final database dump
+0010.000 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_postmeta.table.tmpr1006.gz (21/17/fopen): adding to final database dump
+0010.003 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_postmeta.table.gz (22/17/fopen): adding to final database dump
+0010.004 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_posts.table.tmpr203.gz (23/17/fopen): adding to final database dump
+0010.006 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_posts.table.gz (24/17/fopen): adding to final database dump
+0010.008 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_term_relationships.table.tmpr100001.gz (25/17/fopen): adding to final database dump
+0010.009 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_term_relationships.table.gz (26/17/fopen): adding to final database dump
+0010.010 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_term_taxonomy.table.tmpr3.gz (27/17/fopen): adding to final database dump
+0010.011 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_term_taxonomy.table.gz (28/17/fopen): adding to final database dump
+0010.011 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_termmeta.table.tmpr0.gz (29/17/fopen): adding to final database dump
+0010.012 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_termmeta.table.gz (30/17/fopen): adding to final database dump
+0010.013 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_terms.table.tmpr3.gz (31/17/fopen): adding to final database dump
+0010.014 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_terms.table.gz (32/17/fopen): adding to final database dump
+0010.015 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (33/17/fopen): adding to final database dump
+0010.016 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db-table-wp_wpforms_tasks_meta.table.gz (34/17/fopen): adding to final database dump
+0010.020 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz: finished writing out complete database file (381.7 KB)
+0010.035 (0) Total database tables backed up: 17 (backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz, size: 391008, sha1: 8d86a23b667e29965f9593aeeca4fea4f2dec7da, sha256: 8b4da28ec98d73803dd3278023594c611217623d59c87f8b9bb5442a0b709d2a)
+0010.041 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.042 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.042 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.043 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.044 (0) backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.045 (0) Saving backup history. Total backup size: 85.4 MB
+0010.047 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.049 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0010.051 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-50438c2fbe965ed860e4d8b9bfc4f16b)
+0011.282 (0) Google Drive: creating path: /UpdraftPlus
+0012.702 (0) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0012.703 (0) Google Drive: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip: Attempting to upload to Google Drive (into folder id: 1qYP9oJEWzCoQuWBGHogWAwL0SBvmBm1C)
+0014.184 (0) Googledrive chunked upload: 2.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 53.7 / 8.5)
+0016.430 (0) Googledrive chunked upload: 8.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 53.7 / 8.5)
+0018.640 (0) Googledrive chunked upload: 19.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 53.7 / 8.5)
+0025.710 (0) Googledrive chunked upload: 41.5 % uploaded (15728640)
+0036.093 (0) Googledrive chunked upload: 63.6 % uploaded (24117248)
+0040.692 (0) Googledrive chunked upload: 85.7 % uploaded (32505856)
+0044.603 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0044.608 (0) Google Drive: OK: Archive backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip uploaded in 31.9 seconds
+0044.609 (0) Recording as successfully uploaded: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip
+0044.630 (0) Deleting local file: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-plugins.zip: OK
+0045.296 (0) Google Drive: quota usage: used=36.2 MB, total=15360 MB, available=15323.8 MB
+0045.297 (0) Google Drive: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip: Attempting to upload to Google Drive (into folder id: 1qYP9oJEWzCoQuWBGHogWAwL0SBvmBm1C)
+0047.461 (0) Googledrive chunked upload: 12 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 53.7 / 8.5)
+0049.134 (0) Googledrive chunked upload: 36.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 53.7 / 8.5)
+0051.609 (0) Googledrive chunked upload: 84.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 53.7 / 8.5)
+0053.561 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0053.567 (0) Google Drive: OK: Archive backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip uploaded in 8.27 seconds
+0053.568 (0) Recording as successfully uploaded: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip
+0053.579 (0) Deleting local file: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-themes.zip: OK
+0054.070 (0) Google Drive: quota usage: used=44.5 MB, total=15360 MB, available=15315.5 MB
+0054.072 (0) Google Drive: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip: Attempting to upload to Google Drive (into folder id: 1qYP9oJEWzCoQuWBGHogWAwL0SBvmBm1C)
+0055.644 (0) Googledrive chunked upload: 2.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 53.7 / 8.5)
+0056.994 (0) Googledrive chunked upload: 7.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 53.7 / 8.5)
+0059.235 (0) Googledrive chunked upload: 17.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 53.7 / 8.5)
+0064.098 (0) Googledrive chunked upload: 37.7 % uploaded (15728640)
+0068.618 (0) Googledrive chunked upload: 57.8 % uploaded (24117248)
+0075.005 (0) Googledrive chunked upload: 77.9 % uploaded (32505856)
+0083.924 (0) Googledrive chunked upload: 98 % uploaded (40894464)
+0085.714 (0) Googledrive chunked upload: 100 % uploaded (40894464)
+0085.720 (0) Google Drive: OK: Archive backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip uploaded in 31.65 seconds
+0085.721 (0) Recording as successfully uploaded: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip
+0085.748 (0) Deleting local file: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-uploads.zip: OK
+0086.259 (0) Google Drive: quota usage: used=84.3 MB, total=15360 MB, available=15275.7 MB
+0086.262 (0) Google Drive: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip: Attempting to upload to Google Drive (into folder id: 1qYP9oJEWzCoQuWBGHogWAwL0SBvmBm1C)
+0089.535 (0) Googledrive chunked upload: 100 % uploaded
+0089.540 (0) Google Drive: OK: Archive backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip uploaded in 3.28 seconds
+0089.542 (0) Recording as successfully uploaded: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip
+0089.546 (0) Deleting local file: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-others.zip: OK
+0090.039 (0) Google Drive: quota usage: used=85 MB, total=15360 MB, available=15275 MB
+0090.041 (0) Google Drive: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz: Attempting to upload to Google Drive (into folder id: 1qYP9oJEWzCoQuWBGHogWAwL0SBvmBm1C)
+0092.066 (0) Googledrive chunked upload: 100 % uploaded
+0092.071 (0) Google Drive: OK: Archive backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz uploaded in 2.03 seconds
+0092.073 (0) Recording as successfully uploaded: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz
+0092.077 (0) Deleting local file: backup_2021-07-29-1643_L039abricotine_f4b8ccb96500-db.gz: OK
+0092.082 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0092.085 (0) Number of backup sets in history: 2; groups (db): 1
+0092.086 (0) Examining (for databases) backup set with group_id=0, nonce=f4b8ccb96500, datestamp=1627569824 (Jul 29 2021 14:43:44)
+0092.088 (0) This backup set is the backup set just made, so will not be deleted.
+0092.088 (0) Examining (for databases) backup set with group_id=0, nonce=7d81b2eefae7, datestamp=1627569712 (Jul 29 2021 14:41:52)
+0092.088 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.089 (0) Number of backup sets in history: 2; groups (files): 1
+0092.091 (0) Examining (for files) backup set with nonce=f4b8ccb96500, datestamp=1627569824 (Jul 29 2021 14:43:44)
+0092.091 (0) This backup set is the backup set just made, so will not be deleted.
+0092.092 (0) This backup set is the backup set just made, so will not be deleted.
+0092.092 (0) This backup set is the backup set just made, so will not be deleted.
+0092.093 (0) This backup set is the backup set just made, so will not be deleted.
+0092.093 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.094 (0) Examining (for files) backup set with nonce=7d81b2eefae7, datestamp=1627569712 (Jul 29 2021 14:41:52)
+0092.095 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0092.095 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0092.099 (0) Resume backup (f4b8ccb96500, 0): finish run
+0092.102 (0) Decremented the semaphore (fd) by 1
+0092.104 (0) Semaphore (fd) unlocked
+0092.106 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0092.111 (0) No email will/can be sent - the user has not configured an email address.
+0092.112 (0) The backup apparently succeeded and is now complete
